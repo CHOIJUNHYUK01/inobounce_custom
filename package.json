@@ -1,0 +1,30 @@
+{
+  "name": "@hyuk01/inobounce",
+  "version": "0.1.0",
+  "description": "Stop your iOS webapp from bouncing around when scrolling",
+  "main": "inobounce.js",
+  "author": "LUKE CHOI <hazard0448@gmail.com>",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/uglifyjs inobounce.js -o inobounce.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHOIJUNHYUK01/inobounce_custom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHOIJUNHYUK01/inobounce_custom/issues"
+  },
+  "homepage": "https://github.com/CHOIJUNHYUK01/inobounce_custom",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "uglify": "^0.1.5"
+  },
+  "keywords": [
+    "inobounce",
+    "browser-bouncing",
+    "ios-bouncing"
+  ]
+}
