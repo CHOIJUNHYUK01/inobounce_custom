@@ -1,4 +1,4 @@
-# iNoBounce
+# iNoBounce_Custom
 
 > Stop your iOS webapp from bouncing around when scrolling
 
@@ -11,7 +11,7 @@ You've built a nice full-screen mobile webapp, complete with scrollable elements
 No dependencies, no configuration, just include iNoBounce.
 
 ```html
-<script src="inobounce.js"></script>
+<script src="inobounce_custom.js"></script>
 ```
 
 ## Example
@@ -23,7 +23,7 @@ No dependencies, no configuration, just include iNoBounce.
    All you need is an element with `overflow-x: auto` and `-webkit-overflow-scrolling: touch`.
 
 ```html
-<script src="inobounce.js"></script>
+<script src="inobounce_custom.js"></script>
 
 <style>
   ul {
